@@ -1,0 +1,14 @@
+<!DOCTYPE html >
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>陪你度过漫长岁月</title>
+</head>
+<body>
+Hello, Anderson!
+
+<a href="http://localhost:8080/oauth/authorize?client_id=andersonBlog&response_type=code&scope=all&redirect_uri=http://localhost:8082/index.html">第三方登录</a>
+
+<h1 th:text="${msg}"></h1>
+</body>
+</html>
